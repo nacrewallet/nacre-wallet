@@ -1,0 +1,40 @@
+# Generated output and dependencies
+node_modules/
+dist/
+dist-firefox/
+preview-dist/
+release-build/
+releases/
+coverage/
+.vite/
+*.tsbuildinfo
+*.zip
+*.log
+
+# Local secrets, browser profiles, wallet data and diagnostics
+.env
+.env.*
+!.env.example
+.npmrc
+*.pem
+*.key
+*.p12
+*.pfx
+*.crx
+*.sqlite*
+*.db
+*.db-*
+private/
+backups/
+userdata/
+profiles/
+qa/
+id_rsa*
+id_ed25519*
+
+# Local editor / operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini

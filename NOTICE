@@ -1,0 +1,14 @@
+Nacre Wallet is an independent fork of Pearl Wallet by Kaspador and contributors.
+Upstream: https://github.com/kaspador/pearl-extension
+Baseline commit: c916752d09eb729de188efdd37ac64e2e26e27d6 (Pearl Wallet 1.3.2).
+
+Copyright (c) 2026 Pearl Wallet contributors.
+Upstream code is distributed under the MIT license preserved in LICENSE.
+Nacre additions and branding are independent of Pearl Research Labs and the
+upstream Pearl Wallet project. Nacre is not affiliated with those projects.
+Dependency and font notices are included in packaged release builds.
+
+Nacre Wallet signs native Pearl (PRL) transactions on the user's device.
+The nacre.finance bridge is a separate service and is not included in this
+repository. Connecting to that site does not authorize automatic payments;
+each website-requested PRL transfer requires explicit wallet approval.
